@@ -288,4 +288,33 @@ p.add-currency-list-header{
   opacity: 30%;
 }
 
+/* media queries */
+@media(min-width: 320px) and (orientation:portrait){
+  .header{
+    display: none;
+  }
+  .work-container{
+    justify-content: center;
+    align-items: center;
+  }
+  .charts{
+    display: none;
+  }
+  .currencies-container{
+    width: 95vw;
+    height: 95vh;
+    min-width: 0;
+    min-height: 0;
+    margin-top: 5%;
+  }
+  .currency-element{
+    margin-top: 2%;
+  }
+  body{
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
 
